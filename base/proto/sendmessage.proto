@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package base;
+option go_package = "proto";
+
+message sendRequest {
+    string name = 1;
+}
+
+message sendResponse {
+    bool inserted = 1;
+}
+
+service sendService {
+    rpc Send(sendRequest) returns (sendResponse) {};
+}
