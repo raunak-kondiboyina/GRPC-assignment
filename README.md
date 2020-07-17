@@ -23,7 +23,7 @@ $ make installredigo
 
 2) move to GRPC-assignment folder 
 
-   ($ cd .github.com/GRPC-assignment)
+   ($ cd github.com/GRPC-assignment)
 
 3) to run server
 
